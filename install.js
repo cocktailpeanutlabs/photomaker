@@ -13,7 +13,7 @@ module.exports = {
     "method": "shell.run",
     "params": {
       //"message": "git clone https://huggingface.co/spaces/TencentARC/PhotoMaker app"
-      "message": "git clone https://github.com/TencentARC/PhotoMaker app"
+      "message": "git clone https://github.com/peanutcocktail/PhotoMaker app"
     }
   }, {
     "method": "shell.run",
