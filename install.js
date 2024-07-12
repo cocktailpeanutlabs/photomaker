@@ -23,7 +23,8 @@ module.exports = {
       "message": [
         "{{(gpu === 'nvidia' ? self.cmds.nvidia : ((platform === 'linux' && gpu === 'amd') ? self.cmds.amd : self.cmds.default))}}",
         "pip install -r ../requirements.txt",
-        "pip install git+https://github.com/TencentARC/PhotoMaker.git"
+        "pip install git+https://github.com/TencentARC/PhotoMaker.git",
+        "pip install --upgrade huggingface-hub"
       ]
     }
   }, {
